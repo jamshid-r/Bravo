@@ -41,7 +41,7 @@ protected ExtentTest logger;
 		
 		reporter.attachReporter(htmlreporter);
 		
-		reporter.setSystemInfo("Tester", "Natalia");
+		reporter.setSystemInfo("Tester", "Jamshid");
 		reporter.setSystemInfo("Environment", "Staging/Pre-production");
 		reporter.setSystemInfo("OS", System.getProperty("os.name"));
 		reporter.setSystemInfo("browser", ConfigReader.getConfiguration("browser"));

@@ -33,12 +33,12 @@ public class LoginPage {
 //	public WebElement errorMessage;
 	
 	
-	public void positiveLogin() {
-		usernameField.sendKeys(ConfigReader.getConfiguration("usrname"));
-		passwordField.sendKeys(ConfigReader.getConfiguration("password"));
-		loginButton.click();
-		
-	}
+//	public void positiveLogin() {
+//		usernameField.sendKeys(ConfigReader.getConfiguration("usrname"));
+//		passwordField.sendKeys(ConfigReader.getConfiguration("password"));
+//		loginButton.click();
+//		
+//	}
 	
 	
 	
