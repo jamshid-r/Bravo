@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7366" started-at="2020-04-09T18:56:41 CDT" finished-at="2020-04-09T18:56:48 CDT">
+  <suite name="Default suite" duration-ms="12480" started-at="2020-04-13T17:23:07 CDT" finished-at="2020-04-13T17:23:20 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7366" started-at="2020-04-09T18:56:41 CDT" finished-at="2020-04-09T18:56:48 CDT">
-      <class name="com.parabank.test.LoginTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.parabank.test.LoginTest@2473b9ce]" name="setUpSuite" is-config="true" duration-ms="220" started-at="2020-04-09T18:56:41 CDT" finished-at="2020-04-09T18:56:41 CDT">
+    <test name="Default test" duration-ms="12480" started-at="2020-04-13T17:23:07 CDT" finished-at="2020-04-13T17:23:20 CDT">
+      <class name="com.orbitz.test.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce]" name="setUpSuite" is-config="true" duration-ms="196" started-at="2020-04-13T17:23:07 CDT" finished-at="2020-04-13T17:23:07 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parabank.test.LoginTest@2473b9ce]" name="setUp" is-config="true" duration-ms="5948" started-at="2020-04-09T18:56:41 CDT" finished-at="2020-04-09T18:56:47 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce]" name="setUp" is-config="true" duration-ms="5426" started-at="2020-04-13T17:23:08 CDT" finished-at="2020-04-13T17:23:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.parabank.test.LoginTest@2473b9ce]" name="LoginTest" duration-ms="1346" started-at="2020-04-09T18:56:47 CDT" finished-at="2020-04-09T18:56:48 CDT">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce]" name="LoginTest" duration-ms="7014" started-at="2020-04-13T17:23:13 CDT" finished-at="2020-04-13T17:23:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.parabank.test.LoginTest@2473b9ce]" name="tearDown" is-config="true" duration-ms="8" started-at="2020-04-09T18:56:48 CDT" finished-at="2020-04-09T18:56:48 CDT">
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-04-13T17:23:20 CDT" finished-at="2020-04-13T17:23:20 CDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginTest.LoginTest()[pri:0, instance:com.parabank.test.LoginTest@2473b9ce] output={null}]]]>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginTest.LoginTest()[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce] output={null}]]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.parabank.test.TestBase.tearDown(TestBase.java:75)
+at com.orbitz.test.TestBase.tearDown(TestBase.java:75)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -70,11 +70,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.parabank.test.LoginTest@2473b9ce]" name="tearDownSuite" is-config="true" duration-ms="5" started-at="2020-04-09T18:56:48 CDT" finished-at="2020-04-09T18:56:48 CDT">
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.orbitz.test.LoginTest@2473b9ce]" name="tearDownSuite" is-config="true" duration-ms="119" started-at="2020-04-13T17:23:20 CDT" finished-at="2020-04-13T17:23:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- com.parabank.test.LoginTest -->
+      </class> <!-- com.orbitz.test.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

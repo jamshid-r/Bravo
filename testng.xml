@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.parabank.test.TestBase"/>
-      <class name="com.parabank.test.TransferFundsTest"/>
+      <class name="com.orbitz.test.TransferFundsTest"/>
+      <class name="com.orbitz.test.TestBase"/>
+      <class name="com.orbitz.test.VPTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

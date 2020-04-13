@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 09 17:46:15 CDT 2020</td>
+<td>Started on:</td><td>Sun Apr 12 23:06:06 CDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11740 ms)</td>
+<tr><td>Total time:</td><td>16 seconds (16353 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.parabank.test.TransferFundsTest.tearDown()'><b>tearDown</b><br>Test class: com.parabank.test.TransferFundsTest<br>Parameters: [TestResult name=LoginTest status=FAILURE method=TransferFundsTest.LoginTest()[pri:0, instance:com.parabank.test.TransferFundsTest@2473b9ce] output={null}]</td>
+<td title='com.orbitz.test.TransferFundsTest.tearDown()'><b>tearDown</b><br>Test class: com.orbitz.test.TransferFundsTest<br>Parameters: [TestResult name=LoginTest status=FAILURE method=TransferFundsTest.LoginTest()[pri:0, instance:com.orbitz.test.TransferFundsTest@2bea5ab4] output={null}]</td>
 <td><div><pre>java.lang.NullPointerException
-	at com.parabank.test.TestBase.tearDown(TestBase.java:66)
+	at com.orbitz.test.TestBase.tearDown(TestBase.java:66)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1685407532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1685407532'><pre>java.lang.NullPointerException
-	at com.parabank.test.TestBase.tearDown(TestBase.java:66)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574873161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574873161'><pre>java.lang.NullPointerException
+	at com.orbitz.test.TestBase.tearDown(TestBase.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -117,7 +117,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.parabank.test.TransferFundsTest@2473b9ce</td></tr>
+<td>com.orbitz.test.TransferFundsTest@2bea5ab4</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -127,35 +127,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.parabank.test.TransferFundsTest.LoginTest()'><b>LoginTest</b><br>Test class: com.parabank.test.TransferFundsTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=Transfer Funds
+<td title='com.orbitz.test.TransferFundsTest.LoginTest()'><b>LoginTest</b><br>Test class: com.orbitz.test.TransferFundsTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name=&apos;username&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.parabank.test.TransferFundsTest.LoginTest(TransferFundsTest.java:19)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.orbitz.test.TransferFundsTest.LoginTest(TransferFundsTest.java:14)
 	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095677157", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2095677157'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=Transfer Funds
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1805164661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1805164661'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name=&apos;username&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LENOVO-PC&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at com.parabank.test.TransferFundsTest.LoginTest(TransferFundsTest.java:19)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.orbitz.test.TransferFundsTest.LoginTest(TransferFundsTest.java:14)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -185,8 +185,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>5</td>
-<td>com.parabank.test.TransferFundsTest@2473b9ce</td></tr>
+<td>10</td>
+<td>com.orbitz.test.TransferFundsTest@2bea5ab4</td></tr>
 </table><p>
 </body>
 </html>
