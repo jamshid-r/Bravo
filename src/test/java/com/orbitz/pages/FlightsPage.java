@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 import com.orbitz.utils.ConfigReader;
 import com.orbitz.utils.Driver;
 
-public class FlightPage {
+public class FlightsPage {
 	
 	
-	public FlightPage() {
+	public FlightsPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
