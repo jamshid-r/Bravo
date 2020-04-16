@@ -27,9 +27,9 @@ public abstract class TestBase {
 protected WebDriver driver;
 protected Actions actions;
 
-protected ExtentReports reporter;
-protected ExtentSparkReporter htmlreporter;
-protected ExtentTest logger;
+protected static ExtentReports reporter;
+protected static ExtentSparkReporter htmlreporter;
+protected static ExtentTest logger;
 
 	@BeforeSuite
 	public void setUpSuite() {
@@ -81,10 +81,10 @@ protected ExtentTest logger;
 	}
 	
 	
-	@AfterSuite
-	
-	public void tearDownSuite() {
-		reporter.flush();
-	}
+//	@AfterSuite
+//	
+//	public void tearDownSuite() {
+//		reporter.flush();
+//	}
 
 }

@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16730" started-at="2020-04-14T11:05:05 CDT" finished-at="2020-04-14T11:05:22 CDT">
+  <suite name="Default suite" duration-ms="28718" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:52:07 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16730" started-at="2020-04-14T11:05:05 CDT" finished-at="2020-04-14T11:05:22 CDT">
+    <test name="Default test" duration-ms="28718" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:52:07 CDT">
       <class name="com.orbitz.test.VPTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orbitz.test.VPTest@2473b9ce]" name="setUpSuite" is-config="true" duration-ms="253" started-at="2020-04-14T11:05:05 CDT" finished-at="2020-04-14T11:05:05 CDT">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="setUpSuite" is-config="true" duration-ms="219" started-at="2020-04-16T16:51:38 CDT" finished-at="2020-04-16T16:51:39 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.VPTest@2473b9ce]" name="setUp" is-config="true" duration-ms="12362" started-at="2020-04-14T11:05:05 CDT" finished-at="2020-04-14T11:05:18 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="setUp" is-config="true" duration-ms="11310" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:51:50 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VacationPackageTest()[pri:0, instance:com.orbitz.test.VPTest@2473b9ce]" name="VacationPackageTest" duration-ms="4313" started-at="2020-04-14T11:05:18 CDT" finished-at="2020-04-14T11:05:22 CDT">
+        <test-method status="PASS" signature="VacPackageFlightSearchTest()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="VacPackageFlightSearchTest" duration-ms="17343" started-at="2020-04-16T16:51:50 CDT" finished-at="2020-04-16T16:52:07 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VacationPackageTest -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orbitz.test.VPTest@2473b9ce]" name="tearDown" is-config="true" duration-ms="7" started-at="2020-04-14T11:05:22 CDT" finished-at="2020-04-14T11:05:22 CDT">
+        </test-method> <!-- VacPackageFlightSearchTest -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-04-16T16:52:07 CDT" finished-at="2020-04-16T16:52:07 CDT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VacationPackageTest status=SUCCESS method=VPTest.VacationPackageTest()[pri:0, instance:com.orbitz.test.VPTest@2473b9ce] output={null}]]]>
+                <![CDATA[[TestResult name=VacPackageFlightSearchTest status=SUCCESS method=VPTest.VacPackageFlightSearchTest()[pri:0, instance:com.orbitz.test.VPTest@50de0926] output={null}]]]>
               </value>
             </param>
           </params>
@@ -70,10 +70,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.orbitz.test.VPTest@2473b9ce]" name="tearDownSuite" is-config="true" duration-ms="7" started-at="2020-04-14T11:05:22 CDT" finished-at="2020-04-14T11:05:22 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownSuite -->
       </class> <!-- com.orbitz.test.VPTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

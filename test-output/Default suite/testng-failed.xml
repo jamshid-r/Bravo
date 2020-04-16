@@ -7,9 +7,10 @@
         <methods>
           <include name="setUpSuite"/>
           <include name="VacationPackageTest"/>
-          <include name="tearDownSuite"/>
+          <include name="VacationPackageTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="VacPackageFlightSearchTest"/>
         </methods>
       </class> <!-- com.orbitz.test.VPTest -->
     </classes>
