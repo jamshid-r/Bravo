@@ -3,15 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.orbitz.test.TransferFundsTest">
+      <class name="com.orbitz.test.VPTest">
         <methods>
           <include name="setUpSuite"/>
-          <include name="tearDownSuite"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="LoginTest"/>
+          <include name="VacPackageFlightSearchTest"/>
         </methods>
-      </class> <!-- com.orbitz.test.TransferFundsTest -->
+      </class> <!-- com.orbitz.test.VPTest -->
+      <class name="com.orbitz.test.HotelTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="verifyInfoFlyingFromInputField"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orbitz.test.HotelTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

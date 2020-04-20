@@ -1,47 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="1" total="12" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28718" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:52:07 CDT">
+  <suite name="Suite" duration-ms="92444" started-at="2020-04-16T18:47:52 CDT" finished-at="2020-04-16T18:49:25 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28718" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:52:07 CDT">
+    <test name="Test" duration-ms="92444" started-at="2020-04-16T18:47:52 CDT" finished-at="2020-04-16T18:49:25 CDT">
       <class name="com.orbitz.test.VPTest">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="setUpSuite" is-config="true" duration-ms="219" started-at="2020-04-16T16:51:38 CDT" finished-at="2020-04-16T16:51:39 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="setUp" is-config="true" duration-ms="11310" started-at="2020-04-16T16:51:39 CDT" finished-at="2020-04-16T16:51:50 CDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.VPTest@2fd953a6]" name="setUp" is-config="true" duration-ms="1547" started-at="2020-04-16T18:49:18 CDT" finished-at="2020-04-16T18:49:20 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VacPackageFlightSearchTest()[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="VacPackageFlightSearchTest" duration-ms="17343" started-at="2020-04-16T16:51:50 CDT" finished-at="2020-04-16T16:52:07 CDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VacPackageFlightSearchTest -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orbitz.test.VPTest@50de0926]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-04-16T16:52:07 CDT" finished-at="2020-04-16T16:52:07 CDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=VacPackageFlightSearchTest status=SUCCESS method=VPTest.VacPackageFlightSearchTest()[pri:0, instance:com.orbitz.test.VPTest@50de0926] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="VacPackageFlightSearchTest()[pri:0, instance:com.orbitz.test.VPTest@2fd953a6]" name="VacPackageFlightSearchTest" duration-ms="4617" started-at="2020-04-16T18:49:20 CDT" finished-at="2020-04-16T18:49:25 CDT">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a id="primary-header-package" target="_top" href="/Vacation-Packages" data-route="/Vacation-Packages" data-omniture-id="Header.VacationPackages">...</a> is not clickable at point (218, 17). Other element would receive the click: <div>...</div>
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 587ff996ca568894379fbd1bc5fab113]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orbitz.test.TestBase.tearDown(TestBase.java:75)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a id="primary-header-package" target="_top" href="/Vacation-Packages" data-route="/Vacation-Packages" data-omniture-id="Header.VacationPackages">...</a> is not clickable at point (218, 17). Other element would receive the click: <div>...</div>
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 587ff996ca568894379fbd1bc5fab113
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.orbitz.test.VPTest.VacPackageFlightSearchTest(VPTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
@@ -66,11 +79,165 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- VacPackageFlightSearchTest -->
       </class> <!-- com.orbitz.test.VPTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.orbitz.test.HotelTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUpSuite" is-config="true" duration-ms="225" started-at="2020-04-16T18:47:52 CDT" finished-at="2020-04-16T18:47:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="3490" started-at="2020-04-16T18:47:52 CDT" finished-at="2020-04-16T18:47:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAdultsDropDown()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="testAdultsDropDown" duration-ms="5785" started-at="2020-04-16T18:47:56 CDT" finished-at="2020-04-16T18:48:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdultsDropDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1587" started-at="2020-04-16T18:48:01 CDT" finished-at="2020-04-16T18:48:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChildrenDropDown()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="testChildrenDropDown" duration-ms="4158" started-at="2020-04-16T18:48:03 CDT" finished-at="2020-04-16T18:48:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChildrenDropDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1408" started-at="2020-04-16T18:48:07 CDT" finished-at="2020-04-16T18:48:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDAtePicker()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="testDAtePicker" duration-ms="11862" started-at="2020-04-16T18:48:09 CDT" finished-at="2020-04-16T18:48:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDAtePicker -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1585" started-at="2020-04-16T18:48:21 CDT" finished-at="2020-04-16T18:48:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRoomDropDown()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="testRoomDropDown" duration-ms="4672" started-at="2020-04-16T18:48:22 CDT" finished-at="2020-04-16T18:48:27 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoomDropDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1797" started-at="2020-04-16T18:48:27 CDT" finished-at="2020-04-16T18:48:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddFlightCheckBoxSelectable()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifyAddFlightCheckBoxSelectable" duration-ms="3990" started-at="2020-04-16T18:48:29 CDT" finished-at="2020-04-16T18:48:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddFlightCheckBoxSelectable -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="921" started-at="2020-04-16T18:48:33 CDT" finished-at="2020-04-16T18:48:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHotelLinkIsClicable()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifyHotelLinkIsClicable" duration-ms="7233" started-at="2020-04-16T18:48:33 CDT" finished-at="2020-04-16T18:48:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelLinkIsClicable -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="2636" started-at="2020-04-16T18:48:41 CDT" finished-at="2020-04-16T18:48:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyInfoFlyingFromInputField()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifyInfoFlyingFromInputField" duration-ms="10634" started-at="2020-04-16T18:48:43 CDT" finished-at="2020-04-16T18:48:54 CDT">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 587ff996ca568894379fbd1bc5fab113]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=80.0.3987.163)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LENOVO-PC', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 587ff996ca568894379fbd1bc5fab113
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at com.orbitz.test.HotelTest.verifyInfoFlyingFromInputField(HotelTest.java:80)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfoFlyingFromInputField -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1403" started-at="2020-04-16T18:48:54 CDT" finished-at="2020-04-16T18:48:55 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyInfoGoingToInputField()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifyInfoGoingToInputField" duration-ms="7195" started-at="2020-04-16T18:48:55 CDT" finished-at="2020-04-16T18:49:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfoGoingToInputField -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1186" started-at="2020-04-16T18:49:03 CDT" finished-at="2020-04-16T18:49:04 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchHotelFlightButtonClicable()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifySearchHotelFlightButtonClicable" duration-ms="5001" started-at="2020-04-16T18:49:04 CDT" finished-at="2020-04-16T18:49:09 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFlightButtonClicable -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="setUp" is-config="true" duration-ms="1614" started-at="2020-04-16T18:49:09 CDT" finished-at="2020-04-16T18:49:10 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySearchHotelsPageIsDisplated()[pri:0, instance:com.orbitz.test.HotelTest@60856961]" name="verifySearchHotelsPageIsDisplated" duration-ms="8050" started-at="2020-04-16T18:49:10 CDT" finished-at="2020-04-16T18:49:18 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelsPageIsDisplated -->
+      </class> <!-- com.orbitz.test.HotelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

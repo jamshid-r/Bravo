@@ -59,26 +59,26 @@ protected static ExtentTest logger;
 	}
 	
 	
-	@AfterMethod
-	public void tearDown(ITestResult testResult) throws IOException {
-		
-		if(testResult.getStatus() == ITestResult.FAILURE) {
-			logger.fail("FAILED test case: " + testResult.getName());
-			logger.fail(testResult.getThrowable());
-			String imagePath = BrowserUtilities.getScreenshot(testResult.getName());
-			logger.addScreenCaptureFromPath(imagePath);
-			
-			
-		}else if(testResult.getStatus() == ITestResult.SKIP) {
-			logger.skip("SKIPPED test case: " + testResult.getName());
-		}else if(testResult.getStatus() == ITestResult.SUCCESS) {
-			logger.pass("PASSED test case: " + testResult.getName());
-		}
-		
-		
-		
-		Driver.closeDriver();
-	}
+//	@AfterMethod
+//	public void tearDown(ITestResult testResult) throws IOException {
+//		
+//		if(testResult.getStatus() == ITestResult.FAILURE) {
+//			logger.fail("FAILED test case: " + testResult.getName());
+//			logger.fail(testResult.getThrowable());
+//			String imagePath = BrowserUtilities.getScreenshot(testResult.getName());
+//			logger.addScreenCaptureFromPath(imagePath);
+//			
+//			
+//		}else if(testResult.getStatus() == ITestResult.SKIP) {
+//			logger.skip("SKIPPED test case: " + testResult.getName());
+//		}else if(testResult.getStatus() == ITestResult.SUCCESS) {
+//			logger.pass("PASSED test case: " + testResult.getName());
+//		}
+//		
+//		
+//		
+//		Driver.closeDriver();
+//	}
 	
 	
 //	@AfterSuite
