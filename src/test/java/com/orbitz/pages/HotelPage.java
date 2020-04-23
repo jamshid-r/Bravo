@@ -19,8 +19,15 @@ public class HotelPage {
 
 	@FindBy(id = "hotel-flight-origin-hp-hotel")
 	public WebElement flyingFromInputField;
+	
+	
+	@FindBy(id = "hotel-checkin-hp-hotel")
+	public WebElement checkInDate;
+	
+	@FindBy(id = "hotel-checkout-hp-hotel")
+	public WebElement checkOutDateBox;
 
-	@FindBy(id = "//span[.='Search Hotel + Flight']")
+	@FindBy(xpath = "//*[@id=\"gcw-hotel-form-hlp\"]/div[7]/label/button")
 	public WebElement searchHotelFligthButton;
 
 }

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orbitz.test.VPTest">
+      <class name="com.orbitz.test.FlightsTest">
         <methods>
-          <include name="setUpSuite"/>
+          <include name="verifySearchFlightCarButtonClicable"/>
+          <include name="verifyFlightsLinkIsClicable"/>
           <include name="setUp"/>
-          <include name="VacPackageFlightSearchTest"/>
-        </methods>
-      </class> <!-- com.orbitz.test.VPTest -->
-      <class name="com.orbitz.test.HotelTest">
-        <methods>
+          <include name="testChildrenDropDown"/>
+          <include name="verifyDirectFlightsMessageDisplayed"/>
           <include name="setUpSuite"/>
+          <include name="verifySearchFlightsText"/>
+          <include name="verifyInfoFlyingToInputField"/>
           <include name="verifyInfoFlyingFromInputField"/>
-          <include name="setUp"/>
+          <include name="testDAtePicker"/>
+          <include name="tearDown"/>
+          <include name="verifyAddCarCheckBoxSelectable"/>
+          <include name="testAdultsDropDown"/>
         </methods>
-      </class> <!-- com.orbitz.test.HotelTest -->
+      </class> <!-- com.orbitz.test.FlightsTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
